@@ -17,7 +17,7 @@ spec:
         - name: regcred
       containers:
       - name: hello-world
-        image: salman1091/hello-world
+        image: eyesoncloud/hello-world
         imagePullPolicy: Always
         ports:
         - name: hello-world
