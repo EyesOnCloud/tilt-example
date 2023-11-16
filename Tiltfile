@@ -7,7 +7,7 @@ default_registry(settings.get('default_registry'))
 k8s_yaml('deployment.yaml')
 
 # Specify name of the in-development container image and its build directory
-docker_build('salman1091/hello-world','.')
+docker_build('eyesoncloud/tilt-demo','.')
 
 # Specify name of k8s resource for Tilt to be aware of, and which ports should
 # be forwarded to local machine
